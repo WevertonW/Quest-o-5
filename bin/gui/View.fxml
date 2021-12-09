@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
+   <children>
+      <Button fx:id="Btcancelar" layoutX="152.0" layoutY="210.0" mnemonicParsing="false" text="Cancelar" />
+      <Button fx:id="Btsalvar" layoutX="240.0" layoutY="210.0" mnemonicParsing="false" onAction="#onBtsalvarAction" text="Salvar" />
+      <Label fx:id="Lnome" layoutX="69.0" layoutY="89.0" text="Nome :" />
+      <Label fx:id="Lsobrenome" layoutX="54.0" layoutY="159.0" text="Sobrenome :" />
+      <Label layoutX="393.0" layoutY="89.0" text="Nome Completo :" />
+      <TextField fx:id="Tfnome" layoutX="137.0" layoutY="85.0" prefHeight="25.0" prefWidth="181.0" />
+      <TextField fx:id="Tfsobrenome" layoutX="137.0" layoutY="155.0" prefHeight="25.0" prefWidth="181.0" />
+      <Label fx:id="exibir" layoutX="393.0" layoutY="129.0" text="exibir" />
+   </children>
+</AnchorPane>
